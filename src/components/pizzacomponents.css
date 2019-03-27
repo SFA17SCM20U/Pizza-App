@@ -1,0 +1,81 @@
+
+.list-group li {
+    margin-top:5px;
+    border-left: 4px solid #0f9d58;
+    border-radius: 5px;
+}
+
+.bg-img-class{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.img-effects{
+  box-shadow: 0 0 0.8125rem 0 rgba(0,0,0,.75);
+}
+
+.Menu-icon {
+  height:300px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-elem {
+  margin-top: 50px;
+  height: 600px;/*-webkit-fill-available;*/
+  padding: 20px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #5c1b00 !important;
+  border-color: #5c1b00 !important;
+}
+
+.btn-info:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem #f8f9fa00 !important;
+}
+
+.form-control{
+  height: calc(1.5em + .75rem + 10px) !important;
+}
+
+.form-control:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem #f8f9fa00 !important;
+  border-color:#5c1b00 !important;
+}
+
+input[type=button]:focus {
+  color: white;
+}
+
+.hover-effect:hover{
+  -webkit-transform: scale(1.1);
+}
+
+.text-font-color{
+  color:#003366;
+}
+
+.text-msg{
+  font-size: calc(10px + 3vmin);
+  font-family: Comic Sans MS;
+}
+
+.load-text{
+  font-size: calc(35px + 5vmin);
+  font-family: Comic Sans MS;
+  height:400px;
+}
+
+.list-group-item:hover {
+  background-color: navy !important;
+  color: aliceblue !important;
+}
