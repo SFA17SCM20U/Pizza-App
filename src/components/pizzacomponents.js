@@ -75,6 +75,7 @@ class PizzaComponent extends Component {
                       return 0;
                     }).reverse()
       });
+      
   }
 
   /*
@@ -96,7 +97,7 @@ class PizzaComponent extends Component {
                       <input type="text" id="filterInput" className="form-control hover-effect input-lg text-font-color" value={this.state.inputFilterText} onChange={this.applyFilter.bind(this)} placeholder="Search your favorite Pizza..."/>
                     </div>
                     <div className="col-md-2">
-                        <input type="button" className="form-control btn btn-info btn-lg hover-effect" value="Sort Pizzas" onClick={this.sortPizzas.bind(this)}/>
+                        <input type="button" id="sortButton" className="form-control btn btn-info btn-lg hover-effect" value="Sort Pizzas" onClick={this.sortPizzas.bind(this)}/>
                     </div>
                     <div className="col-md-2"></div>
                   </div>
